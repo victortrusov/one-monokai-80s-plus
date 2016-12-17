@@ -1,5 +1,9 @@
 # Changelog
 
+#### v0.5.16
+
+  - Tweaked pink-magenta
+
 #### v0.5.4
 
   - Replaced yellow with off white
