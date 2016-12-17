@@ -65,7 +65,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#e5c07b</string>
+          <string>#e0e0e0</string>
         </dict>
       </dict>
       <dict>
@@ -386,7 +386,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#e5c07b</string>
+          <string>#e0e0e0</string>
         </dict>
       </dict>
       <dict>
@@ -500,7 +500,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#e5c07b</string>
+          <string>#e0e0e0</string>
         </dict>
       </dict>
       <dict>
@@ -511,7 +511,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#e5c07b</string>
+          <string>#e0e0e0</string>
         </dict>
       </dict>
 
@@ -530,7 +530,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#e5c07b</string>
+          <string>#e0e0e0</string>
         </dict>
       </dict>
 
