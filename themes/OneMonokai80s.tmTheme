@@ -76,7 +76,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#c678dd</string>
+          <string>#e06c75</string>
         </dict>
       </dict>
       <dict>
@@ -87,7 +87,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#c678dd</string>
+          <string>#e06c75</string>
         </dict>
       </dict>
       <dict>
@@ -131,7 +131,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#e06c75</string>
+          <string>#d18ad5</string>
         </dict>
       </dict>
       <dict>
@@ -153,7 +153,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#e06c75</string>
+          <string>#d18ad5</string>
         </dict>
       </dict>
       <dict>
@@ -164,7 +164,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#e06c75</string>
+          <string>#d18ad5</string>
         </dict>
       </dict>
       <dict>
@@ -175,7 +175,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#e06c75</string>
+          <string>#d18ad5</string>
         </dict>
       </dict>
       <dict>
@@ -276,7 +276,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#e06c75</string>
+          <string>#d18ad5</string>
         </dict>
       </dict>
       <dict>
@@ -397,7 +397,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#c678dd</string>
+          <string>#e06c75</string>
         </dict>
       </dict>
       <dict>
@@ -430,7 +430,7 @@
         <key>settings</key>
         <dict>
           <key>background</key>
-          <string>#c678dd</string>
+          <string>#e06c75</string>
           <key>foreground</key>
           <string>#F8F8F0</string>
         </dict>
@@ -489,7 +489,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#c678dd</string>
+          <string>#e06c75</string>
         </dict>
       </dict>
       <dict>
