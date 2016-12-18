@@ -3,9 +3,9 @@
 <plist version="1.0">
   <dict>
     <key>author</key>
-    <string>azemoh</string>
+	<string>Axiomatic Studios</string>
     <key>name</key>
-    <string>One Monokai</string>
+	<string>One Monokai 80s</string>
     <key>settings</key>
     <array>
       <dict>
@@ -18,7 +18,7 @@
           <key>foreground</key>
           <string>#abb2bf</string>
           <key>invisibles</key>
-          <string>#4b525b</string>
+          <string>#303641</string>
           <key>lineHighlight</key>
           <string>#2c323c</string>
           <key>findHighlight</key>
@@ -131,7 +131,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#d48ad3</string>
+          <string>#D48AD3</string>
         </dict>
       </dict>
       <dict>
@@ -153,7 +153,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#d48ad3</string>
+          <string>#D48AD3</string>
         </dict>
       </dict>
       <dict>
@@ -164,7 +164,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#d48ad3</string>
+          <string>#D48AD3</string>
         </dict>
       </dict>
       <dict>
@@ -175,7 +175,7 @@
         <key>settings</key>
         <dict>
           <key>foreground</key>
-          <string>#d48ad3</string>
+          <string>#D48AD3</string>
         </dict>
       </dict>
       <dict>
