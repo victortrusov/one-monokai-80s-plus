@@ -66,9 +66,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D4D4D4</string>
-				<key>fontStyle</key>
-				<string> bold</string>
+				<string>#D0D6DC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -79,7 +77,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e06c75</string>
+				<string>#88DDDD</string>
 			</dict>
 		</dict>
 		<dict>
@@ -90,7 +88,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#e06c75</string>
+				<string>#88DDDD</string>
 			</dict>
 		</dict>
 		<dict>
@@ -101,7 +99,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#98c379</string>
+				<string>#98C379</string>
 			</dict>
 		</dict>
 		<dict>
@@ -112,7 +110,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#56b6c2</string>
+				<string>#56B6C2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -145,7 +143,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#61afef</string>
+				<string>#61AFEF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -189,7 +187,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#56b6c2</string>
+				<string>#56B6C2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -200,7 +198,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#61afef</string>
+				<string>#61AFEF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -233,7 +231,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#98c379</string>
+				<string>#98C379</string>
 			</dict>
 		</dict>
 		<dict>
@@ -312,7 +310,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#abb2bf</string>
+				<string>#ABB2BF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -378,7 +376,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E06C75</string>
+				<string>#88DDDD</string>
 			</dict>
 		</dict>
 		<dict>
@@ -389,9 +387,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D4D4D4</string>
-				<key>fontStyle</key>
-				<string> bold</string>
+				<string>#D0D6DC</string>
 			</dict>
 		</dict>
 		<dict>
@@ -402,7 +398,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E06C75</string>
+				<string>#88DDDD</string>
 			</dict>
 		</dict>
 		<dict>
@@ -413,7 +409,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E06C75</string>
+				<string>#88DDDD</string>
 			</dict>
 		</dict>
 		<dict>
@@ -640,7 +636,7 @@
 			<key>name</key>
 			<string>XML Tag</string>
 			<key>scope</key>
-			<string>entity.name.tag.xml</string>
+			<string>entity.name.tag.xml, entity.name.tag.xml.html,entity.name.tag.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -651,7 +647,7 @@
 			<key>name</key>
 			<string>XML Namespace</string>
 			<key>scope</key>
-			<string>entity.name.tag.namespace.xml, entity.other.attribute-name.namespace.xml</string>
+			<string>entity.name.tag.namespace.xml, entity.other.attribute-name.namespace.xml,entity.other.attribute-name.id.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -662,7 +658,7 @@
 			<key>name</key>
 			<string>XML Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.definition.tag.xml</string>
+			<string>punctuation.definition.tag.xml,punctuation.definition.tag.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -684,7 +680,7 @@
 			<key>name</key>
 			<string>XML Attribute</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.xml, entity.other.attribute-name.localname.xml</string>
+			<string>entity.other.attribute-name.xml, entity.other.attribute-name.localname.xml,entity.other.attribute-name.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -695,7 +691,7 @@
 			<key>name</key>
 			<string>XML Keywords</string>
 			<key>scope</key>
-			<string>keyword.other.entitytype.xml, keyword.other.entity.xml, keyword.other.page-props.xml,</string>
+			<string>keyword.other.entitytype.xml, keyword.other.entity.xml, keyword.other.page-props.xml</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
