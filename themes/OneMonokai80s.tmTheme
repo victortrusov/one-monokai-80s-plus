@@ -16,11 +16,11 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#282c34</string>
+				<string>#282C34</string>
 				<key>caret</key>
 				<string>#528bff</string>
 				<key>foreground</key>
-				<string>#abb2bf</string>
+				<string>#ABAFBF</string>
 				<key>invisibles</key>
 				<string>#303641</string>
 				<key>lineHighlight</key>
@@ -66,7 +66,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D3D9DE</string>
+				<string>#d7be88</string>
 			</dict>
 		</dict>
 		<dict>
@@ -209,7 +209,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AEB2C2</string>
+				<string>#ABAFBF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -220,7 +220,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#98c379</string>
+				<string>#98C379</string>
 			</dict>
 		</dict>
 		<dict>
@@ -255,7 +255,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AEB2C2</string>
+				<string>#98C379</string>
 			</dict>
 		</dict>
 		<dict>
@@ -266,7 +266,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#98c379</string>
+				<string>#98C379</string>
 			</dict>
 		</dict>
 		<dict>
@@ -277,18 +277,18 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D090CF</string>
+				<string>#61AFEF</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Tag Class and ID</string>
 			<key>scope</key>
-			<string>entity.name.tag.class, entity.name.tag.id</string>
+			<string>entity.name.tag.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#56b6c2</string>
+				<string>#D090CF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -299,7 +299,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#98C379</string>
+				<string>#D090CF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -310,7 +310,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AEB2C2</string>
+				<string>#98C379</string>
 			</dict>
 		</dict>
 		<dict>
@@ -354,7 +354,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#AEB2C2</string>
+				<string>#ABAFBF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -387,7 +387,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D3D9DE</string>
+				<string>#CBCFD7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -611,7 +611,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E5C07B</string>
+				<string>#D1BF94</string>
 			</dict>
 		</dict>
 		<dict>
@@ -647,7 +647,7 @@
 			<key>name</key>
 			<string>XML Namespace</string>
 			<key>scope</key>
-			<string>entity.name.tag.namespace.xml, entity.other.attribute-name.namespace.xml,entity.other.attribute-name.id.html</string>
+			<string>entity.name.tag.namespace.xml, entity.other.attribute-name.namespace.xml</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -696,6 +696,19 @@
 			<dict>
 				<key>foreground</key>
 				<string>#E5C07B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>HTML Id</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.id.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#98C379</string>
+				<key>fontStyle</key>
+				<string> bold</string>
 			</dict>
 		</dict>
 	</array>

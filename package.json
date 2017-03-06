@@ -2,7 +2,7 @@
     "name": "one-monokai-80s",
     "displayName": "One Monokai 80s Theme",
     "description": "A cross between One Monokai and a Delorean.",
-    "version": "0.9.2",
+    "version": "0.9.4",
     "publisher": "axiomaticstudios",
     "engines": {
         "vscode": "^0.10.1"
@@ -31,7 +31,7 @@
     "keywords": [
         "Vscode",
         "Theme",
-        "Onedark",
+        "One",
         "Monokai",
         "80s"
     ],
