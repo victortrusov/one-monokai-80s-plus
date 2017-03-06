@@ -66,7 +66,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#d7be88</string>
+				<string>#d3be92</string>
 			</dict>
 		</dict>
 		<dict>
@@ -117,11 +117,11 @@
 			<key>name</key>
 			<string>User-defined constant</string>
 			<key>scope</key>
-			<string>constant.character, constant.other</string>
+			<string>constant.character, constant.other, variable.other.constant</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#56B6C2</string>
+				<string>#88DDDD</string>
 			</dict>
 		</dict>
 		<dict>
@@ -205,7 +205,52 @@
 			<key>name</key>
 			<string>Other variable</string>
 			<key>scope</key>
-			<string>variable.other.property, variable.other.object, variable.other.block</string>
+			<string>variable.other.block, variable.other.object</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D090CF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Property</string>
+			<key>scope</key>
+			<string>support.variable.property, variable.other.property, variable.other.object.property</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#93a1d2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Other readwrite</string>
+			<key>scope</key>
+			<string>variable.other.readwrite</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D090CF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Other readwrite alias</string>
+			<key>scope</key>
+			<string>variable.other.readwrite.alias</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D090CF</string>
+			</dict>
+		</dict>
+		
+		<dict>
+			<key>name</key>
+			<string>Clear Text</string>
+			<key>scope</key>
+			<string>variable.language.this</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -220,7 +265,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#98C379</string>
+				<string>#D090CF</string>
 			</dict>
 		</dict>
 		<dict>
