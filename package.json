@@ -1,40 +1,38 @@
 {
-    "name": "one-monokai-80s",
-    "displayName": "One Monokai 80s Theme",
-    "description": "A cross between One Monokai and a Delorean.",
-    "version": "0.9.5",
-    "publisher": "axiomaticstudios",
-    "engines": {
-        "vscode": "^0.10.1"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "icon": "icon.svg",
-    "contributes": {
-        "themes": [
-            {
-                "label": "One Monokai 80s",
-                "uiTheme": "vs-dark",
-                "path": "./themes/OneMonokai80s.tmTheme"
-            }
-        ]
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/marcelo-mason/vscode-one-monokai.git"
-    },
-    "bugs": {
-        "url": "https://github.com/marcelo-mason/vscode-one-monokai/issues"
-    },
-    "homepage": "https://github.com/marcelo-mason/vscode-one-monokai/blob/master/README.md",
-    "keywords": [
-        "Vscode",
-        "Theme",
-        "One",
-        "Monokai",
-        "80s"
-    ],
-    "author": "Marcelo Mason, Joshua Azemoh <joshazemoh@gmail.com> (http://azemoh.com)",
-    "license": "MIT"
+  "name": "one-monokai-80s",
+  "displayName": "One Monokai 80s Theme",
+  "description": "A cross between One Monokai and a Delorean.",
+  "version": "1.0.0",
+  "publisher": "axiomaticstudios",
+  "engines": {
+    "vscode": "^0.10.1"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "icon": "icon.svg",
+  "contributes": {
+    "themes": [{
+      "label": "One Monokai 80s",
+      "uiTheme": "vs-dark",
+      "path": "./themes/OneMonokai80s.tmTheme"
+    }]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcelo-mason/vscode-one-monokai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/marcelo-mason/vscode-one-monokai/issues"
+  },
+  "homepage": "https://github.com/marcelo-mason/vscode-one-monokai/blob/master/README.md",
+  "keywords": [
+    "Vscode",
+    "Theme",
+    "One",
+    "Monokai",
+    "80s"
+  ],
+  "author": "Marcelo Mason, Joshua Azemoh <joshazemoh@gmail.com> (http://azemoh.com)",
+  "license": "MIT"
 }

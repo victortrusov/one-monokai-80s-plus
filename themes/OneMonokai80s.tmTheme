@@ -18,9 +18,9 @@
 				<key>background</key>
 				<string>#282C34</string>
 				<key>caret</key>
-				<string>#528bff</string>
+				<string>#528BFF</string>
 				<key>foreground</key>
-				<string>#ABAFBF</string>
+				<string>#BEC2CA</string>
 				<key>invisibles</key>
 				<string>#303641</string>
 				<key>lineHighlight</key>
@@ -53,7 +53,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#5C6370</string>
+				<string>#6F7887</string>
 				<key>fontStyle</key>
 				<string>italic</string>
 			</dict>
@@ -66,7 +66,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#d3be92</string>
+				<string>#D6C094</string>
 			</dict>
 		</dict>
 		<dict>
@@ -77,7 +77,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#88DDDD</string>
+				<string>#D19A66</string>
 			</dict>
 		</dict>
 		<dict>
@@ -88,7 +88,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#88DDDD</string>
+				<string>#D19A66</string>
 			</dict>
 		</dict>
 		<dict>
@@ -110,7 +110,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#56B6C2</string>
+				<string>#61AFEF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -121,7 +121,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#88DDDD</string>
+				<string>#98C379</string>
 			</dict>
 		</dict>
 		<dict>
@@ -143,14 +143,14 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D090CF</string>
+				<string>#BEC2CA</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
-			<string>keyword, keyword.operator.logical, keyword.operator.constructor</string>
+			<string>keyword</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -165,7 +165,18 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#61AFEF</string>
+				<string>#E4E8F2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Keyword Operator Assignment</string>
+			<key>scope</key>
+			<string>keyword.operator.assignment.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BEC2CA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -187,7 +198,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#56B6C2</string>
+				<string>#61AFEF</string>
+				<key>background</key>
+				<string></string>
 			</dict>
 		</dict>
 		<dict>
@@ -198,18 +211,29 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D090CF</string>
+				<string>#56B6C2</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Other variable</string>
 			<key>scope</key>
-			<string>variable.other.block, variable.other.object</string>
+			<string>variable.other.object</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D090CF</string>
+				<string>#BEC2CA</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Other block</string>
+			<key>scope</key>
+			<string>variable.other.block</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#BEC2CA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -220,7 +244,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#93a1d2</string>
+				<string>#93A1D2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -231,7 +255,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D090CF</string>
+				<string>#BEC2CA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -242,10 +266,9 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D090CF</string>
+				<string>#BEC2CA</string>
 			</dict>
 		</dict>
-		
 		<dict>
 			<key>name</key>
 			<string>Clear Text</string>
@@ -254,7 +277,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ABAFBF</string>
+				<string>#BEC2CA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -265,7 +288,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D090CF</string>
+				<string>#BEC2CA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -276,7 +299,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#98C379</string>
+				<string>#D090CF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -286,10 +309,19 @@
 			<string>variable.parameter</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>foreground</key>
-				<string>#D19A66</string>
+				<string>#98C379</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Stylesheet Function argument</string>
+			<key>scope</key>
+			<string>source.css variable.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D4C19B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -300,7 +332,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#98C379</string>
+				<string>#D090CF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -311,7 +343,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#98C379</string>
+				<string>#D090CF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -338,6 +370,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Doctype</string>
+			<key>scope</key>
+			<string>meta.tag.sgml.doctype.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#61AFEF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Tag attribute</string>
 			<key>scope</key>
 			<string>entity.other.attribute-name</string>
@@ -355,7 +398,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#98C379</string>
+				<string>#D090CF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -366,7 +409,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#56b6c2</string>
+				<string>#56B6C2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -377,18 +420,18 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#56b6c2</string>
+				<string>#56B6C2</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Json Property</string>
 			<key>scope</key>
-			<string>support.dictionary.json</string>
+			<string>support.dictionary.json, source.json support.type</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#56b6c2</string>
+				<string>#D090CF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -399,7 +442,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#ABAFBF</string>
+				<string>#BEC2CA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -410,7 +453,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#98C379</string>
+				<string>#D090CF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -421,7 +464,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#88DDDD</string>
+				<string>#D090CF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -443,18 +486,40 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#88DDDD</string>
+				<string>#D19A66</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>StyleSheet Constants</string>
+			<string>StyleSheet Numbers</string>
 			<key>scope</key>
 			<string>meta.property-value.css constant.numeric.css, meta.property-value.scss constant.numeric.scss, meta.property-value.less constant.numeric.less, meta.property-value.sass constant.numeric.sass</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#88DDDD</string>
+				<string>#D19A66</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>StyleSheet Colors</string>
+			<key>scope</key>
+			<string>source.css constant.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D19A66</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>StyleSheet Support Constant</string>
+			<key>scope</key>
+			<string>source.css support.constant</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D090CF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -465,7 +530,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#56B6C2</string>
+				<string>#D090CF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -476,7 +541,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D090CF</string>
+				<string>#56B6C2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -509,7 +574,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#61AFEF</string>
+				<string>#98C379</string>
 			</dict>
 		</dict>
 		<dict>
@@ -520,7 +585,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D19A66</string>
+				<string>#93A1D2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -531,7 +596,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#D19A66</string>
+				<string>#93A1D2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -554,6 +619,39 @@
 			<dict>
 				<key>foreground</key>
 				<string>#61AFEF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Stylesheet Unit Postfix</string>
+			<key>scope</key>
+			<string>source.css keyword.other.unit</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D19A66</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Stylesheet Vendor Props</string>
+			<key>scope</key>
+			<string>source.css support.type.vendored.property-name.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6F7887</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Stylesheet Support Functions</string>
+			<key>scope</key>
+			<string>source.css support.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D090CF</string>
 			</dict>
 		</dict>
 		<dict>
@@ -703,7 +801,7 @@
 			<key>name</key>
 			<string>XML Punctuation</string>
 			<key>scope</key>
-			<string>punctuation.definition.tag.xml,punctuation.definition.tag.html</string>
+			<string>punctuation.definition.tag.xml,punctuation.definition.tag.html, punctuation.definition.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -747,13 +845,11 @@
 			<key>name</key>
 			<string>HTML Id</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.id.html</string>
+			<string>meta.attribute-with-value.id.html meta.toc-list.id.html, meta.attribute-with-value.id.html string.quoted.double.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#98C379</string>
-				<key>fontStyle</key>
-				<string> bold</string>
 			</dict>
 		</dict>
 	</array>

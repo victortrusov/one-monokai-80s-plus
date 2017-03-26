@@ -1,5 +1,9 @@
 # Changelog
 
+#### v1.0.0
+
+  - Complete overhaul of JS and CSS colorings to fit with the 80s theme
+
 #### v0.9.5
 
   - Purple properties
