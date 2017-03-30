@@ -1,8 +1,8 @@
 {
     "name": "one-monokai-80s",
     "displayName": "One Monokai 80s Theme",
-    "description": "A cross between One Monokai and a Delorean.",
-    "version": "1.0.1",
+    "description": "Pleasing, low-contrast, subtle yet colorful theme made for Dark Themed OSes.",
+    "version": "1.0.2",
     "publisher": "axiomaticstudios",
     "engines": {
         "vscode": "^0.10.1"
@@ -29,12 +29,12 @@
     },
     "homepage": "https://github.com/marcelo-mason/vscode-one-monokai/blob/master/README.md",
     "keywords": [
-        "Vscode",
-        "Theme",
-        "One",
-        "Monokai",
-        "80s"
+        "contrast",
+        "material",
+        "theme",
+        "one",
+        "monokai"
     ],
-    "author": "Marcelo Mason, Joshua Azemoh <joshazemoh@gmail.com> (http://azemoh.com)",
+    "author": "Marcelo Delgado",
     "license": "MIT"
 }
