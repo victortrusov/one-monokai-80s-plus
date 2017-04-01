@@ -99,7 +99,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#98C379</string>
+				<string>#9EC087</string>
 			</dict>
 		</dict>
 		<dict>
@@ -121,7 +121,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#98C379</string>
+				<string>#9EC087</string>
 			</dict>
 		</dict>
 		<dict>
@@ -310,7 +310,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#98C379</string>
+				<string>#9EC087</string>
 			</dict>
 		</dict>
 		<dict>
@@ -563,7 +563,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#98C379</string>
+				<string>#9EC087</string>
 			</dict>
 		</dict>
 		<dict>
@@ -662,7 +662,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#98C379</string>
+				<string>#9EC087</string>
 			</dict>
 		</dict>
 		<dict>
@@ -754,7 +754,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#98C379</string>
+				<string>#9EC087</string>
 			</dict>
 		</dict>
 		<dict>
@@ -805,7 +805,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#98C379</string>
+				<string>#9EC087</string>
 			</dict>
 		</dict>
 		<dict>
@@ -860,7 +860,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#98C379</string>
+				<string>#9EC087</string>
 			</dict>
 		</dict>
 	</array>
