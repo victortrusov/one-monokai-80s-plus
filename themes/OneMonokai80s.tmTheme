@@ -165,7 +165,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E4E8F2</string>
+				<string>#BEC2CA</string>
 			</dict>
 		</dict>
 		<dict>
@@ -311,17 +311,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#98C379</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Stylesheet Function argument</string>
-			<key>scope</key>
-			<string>source.css variable.parameter</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#D4C19B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -652,6 +641,28 @@
 			<dict>
 				<key>foreground</key>
 				<string>#D090CF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Stylesheet Function argument</string>
+			<key>scope</key>
+			<string>source.css variable.parameter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D4C19B</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Stylesheet Variables</string>
+			<key>scope</key>
+			<string>source.css variable.other</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#98C379</string>
 			</dict>
 		</dict>
 		<dict>
