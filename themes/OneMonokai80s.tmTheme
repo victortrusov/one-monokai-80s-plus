@@ -99,7 +99,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9EC087</string>
+				<string>#9CC284</string>
 			</dict>
 		</dict>
 		<dict>
@@ -121,7 +121,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9EC087</string>
+				<string>#9CC284</string>
 			</dict>
 		</dict>
 		<dict>
@@ -155,6 +155,17 @@
 			<dict>
 				<key>foreground</key>
 				<string>#61AFEF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>This</string>
+			<key>scope</key>
+			<string>variable.language.this, variable.language.this.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E3E5E8</string>
 			</dict>
 		</dict>
 		<dict>
@@ -310,7 +321,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9EC087</string>
+				<string>#98C379</string>
 			</dict>
 		</dict>
 		<dict>
@@ -563,7 +574,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9EC087</string>
+				<string>#9CC284</string>
 			</dict>
 		</dict>
 		<dict>
@@ -662,7 +673,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9EC087</string>
+				<string>#9CC284</string>
 			</dict>
 		</dict>
 		<dict>
@@ -754,7 +765,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9EC087</string>
+				<string>#9CC284</string>
 			</dict>
 		</dict>
 		<dict>
@@ -805,7 +816,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9EC087</string>
+				<string>#9CC284</string>
 			</dict>
 		</dict>
 		<dict>
@@ -860,7 +871,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9EC087</string>
+				<string>#9CC284</string>
 			</dict>
 		</dict>
 	</array>
