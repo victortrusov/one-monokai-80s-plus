@@ -6,6 +6,8 @@ A cross between [One Monokai](https://github.com/azemoh/vscode-one-monokai) and 
 
 ![Theme Screenshot](screenshot-v0.0.1.jpg)
 
+![Interface Screenshot](interface.png)
+
 ## Install
 
 press `ctl/command + shift + p` to launch the command palette then run

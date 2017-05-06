@@ -1,5 +1,16 @@
 # Changelog
 
+#### v1.2.0
+
+  - Added editor colors
+
+#### v1.1.0
+
+  - Updated JSON colors to resemble CSS color
+  - "this" is highlighted
+  - Removed color from html braces
+  - Lowed contrast of white and green
+
 #### v1.0.0
 
   - Complete overhaul of JS and CSS colorings to fit with the 80s theme
