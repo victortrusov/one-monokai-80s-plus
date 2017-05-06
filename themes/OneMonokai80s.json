@@ -1,6 +1,7 @@
 {
 	"type": "dark",
 	"colors": {
+    "foreground": "#bec2ca",
     "focusBorder": "#33384200",
     "widget.shadow": "#00000000",
     "dropdown.background": "#363d49",
