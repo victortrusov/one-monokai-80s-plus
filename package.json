@@ -20,7 +20,7 @@
             {
                 "label": "One Monokai 80s",
                 "uiTheme": "vs-dark",
-                "path": "./themes/OneMonokai80s.tmTheme"
+                "path": "./themes/OneMonokai80s.json"
             }
         ]
     },
