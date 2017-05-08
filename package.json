@@ -2,7 +2,7 @@
     "name": "one-monokai-80s",
     "displayName": "One Monokai 80s Theme",
     "description": "[Full-Interface] Pleasing, subtle yet colorful theme.",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "publisher": "axiomaticstudios",
     "engines": {
         "vscode": "^0.10.1"
@@ -33,7 +33,7 @@
     },
     "homepage": "https://github.com/marcelo-mason/vscode-one-monokai/blob/master/README.md",
     "keywords": [
-        "contrast",
+        "workbench",
         "material",
         "theme",
         "pastels",
