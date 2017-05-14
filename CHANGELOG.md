@@ -1,8 +1,18 @@
 # Changelog
 
+#### v1.2.6
+
+  - Added scrollbar theming (matched hue, lowed contrast)
+
+#### v1.2.5
+
+  - Lowered contrast of selected file background color in explorer
+  - Added 80s console colors
+  - Tweaked interface tab background color to better match Windows 10 menubar
+
 #### v1.2.0
 
-  - Added editor colors
+  - Added full workbench theming (thx to HerrLiljegren for starting the process)
 
 #### v1.1.0
 
@@ -20,13 +30,6 @@
   - Purple properties
   - Pink objects/classes across the board
   - Better yellow
-
-#### v0.9.4
-
-  - Updated yellow color
-  - Replaced red with cyan for better cohesion with theme.  
-  - Replaced string off-white color with a lighter version of the background color for better blend.  
-  - Optimized for HTML.
 
 #### v0.9.4
 
