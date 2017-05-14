@@ -324,7 +324,7 @@
 			"name": "JSON String",
 			"scope": "source.json string",
 			"settings": {
-				"foreground": "#D090CF"
+				"foreground": "#D6C094"
 			}
 		},
 		{
