@@ -1,5 +1,9 @@
 # Changelog
 
+#### v1.2.7
+
+  - Dark default statusbar
+
 #### v1.2.6
 
   - Added scrollbar theming (matched hue, lowed contrast)
