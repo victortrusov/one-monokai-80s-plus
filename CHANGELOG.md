@@ -1,5 +1,9 @@
 # Changelog
 
+#### v1.3.1
+
+  - Debugging mode now changes the statusbar foreground to blue
+
 #### v1.3.0
 
   - Updated statusbar and activitybar to flat look
