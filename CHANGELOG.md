@@ -1,5 +1,9 @@
 # Changelog
 
+#### v1.2.12
+
+  - Updated statusbar colors
+
 #### v1.2.11
 
   - Default statusbar foreground color tweak
