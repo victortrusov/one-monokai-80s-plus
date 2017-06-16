@@ -74,7 +74,7 @@
 		"terminal.ansiWhite": "#bec2ca",
 		"terminal.ansiYellow": "#D6C094",
 		"statusBar.background": "#1E2024",
-		"statusBar.foreground": "#b3b8c1",
+		"statusBar.foreground": "#babec4",
 		"statusBar.debuggingBackground": "#3b424f",
 		"statusBar.debuggingForeground": "#d5d7dd",
 		"statusBar.noFolderBackground": "#282C34",

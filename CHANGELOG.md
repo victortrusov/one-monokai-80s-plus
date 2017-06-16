@@ -1,5 +1,9 @@
 # Changelog
 
+#### v1.2.11
+
+  - Default statusbar foreground color tweak
+
 #### v1.2.10
 
   - Added peekview theming
