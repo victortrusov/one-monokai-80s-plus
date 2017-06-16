@@ -1,12 +1,8 @@
 # Changelog
 
-#### v1.2.12
+#### v1.3.0
 
-  - Updated statusbar colors
-
-#### v1.2.11
-
-  - Default statusbar foreground color tweak
+  - Updated statusbar and activitybar to flat look
 
 #### v1.2.10
 
