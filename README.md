@@ -8,9 +8,10 @@ A cross between [One Monokai](https://github.com/azemoh/vscode-one-monokai) and 
 
 ![Interface Screenshot](interface.png)
 
-## Install
+## Installation
 
-press `ctl/command + shift + p` to launch the command palette then run
-```
-ext install one-monokai-80s
-```
+It is recommended to turn ruler borders off in your settings when using this theme:
+
+`
+  "editor.overviewRulerBorder": false
+`
