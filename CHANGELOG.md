@@ -1,11 +1,14 @@
 # Changelog
 
-#### v1.2.9
+#### v1.2.10
 
+  - Added peekview theming
+  - Added input validation theming
+  - Added full statusbar theming
   - Added code lens annotations theming
   - Lowed contrast of bracket matches
 
-#### v1.2.7
+#### v1.2.9
 
   - Dark default statusbar
 
