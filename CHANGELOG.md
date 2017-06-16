@@ -1,5 +1,10 @@
 # Changelog
 
+#### v1.2.9
+
+  - Added code lens annotations theming
+  - Lowed contrast of bracket matches
+
 #### v1.2.7
 
   - Dark default statusbar
