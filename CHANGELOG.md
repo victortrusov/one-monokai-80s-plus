@@ -1,5 +1,10 @@
 # Changelog
 
+#### v1.3.4
+
+  - Flat sidebar headers
+  - Themed badges
+
 #### v1.3.1
 
   - Debugging mode now changes the statusbar foreground to blue
