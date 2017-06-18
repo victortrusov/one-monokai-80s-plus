@@ -1,5 +1,11 @@
 # Changelog
 
+#### v1.3.10
+
+  - Added C# specific class coloring
+  - Raised saturation and adjusted hue on pink color to better match the 80s theme
+  - Tweaked yellow to match new pink
+
 #### v1.3.4
 
   - Flat sidebar headers

@@ -65,16 +65,16 @@
 		"terminal.ansiBrightBlue": "#61AFEF",
 		"terminal.ansiBrightCyan": "#56B6C2",
 		"terminal.ansiBrightGreen": "#98C379",
-		"terminal.ansiBrightMagenta": "#D090CF",
+		"terminal.ansiBrightMagenta": "#cc8ed2",
 		"terminal.ansiBrightRed": "#E06C75",
 		"terminal.ansiBrightWhite": "#E3E5E8",
-		"terminal.ansiBrightYellow": "#D6C094",
+		"terminal.ansiBrightYellow": "#d6c294",
 		"terminal.ansiCyan": "#56B6C2",
 		"terminal.ansiGreen": "#98C379",
-		"terminal.ansiMagenta": "#D090CF",
+		"terminal.ansiMagenta": "#cc8ed2",
 		"terminal.ansiRed": "#E06C75",
 		"terminal.ansiWhite": "#bec2ca",
-		"terminal.ansiYellow": "#D6C094",
+		"terminal.ansiYellow": "#d6c294",
 		"statusBar.background": "#282C34",
 		"statusBar.foreground": "#babec4",
 		"statusBar.debuggingBackground": "#282C34",
@@ -113,7 +113,7 @@
 			"name": "String",
 			"scope": "string",
 			"settings": {
-				"foreground": "#D6C094"
+				"foreground": "#d6c294"
 			}
 		},
 		{
@@ -209,6 +209,14 @@
 			}
 		},
 		{
+			"name": "Storage type C#",
+			"scope": "source.cs storage.type",
+			"settings": {
+				"foreground": "#56B6C2",
+				"background": ""
+			}
+		},
+		{
 			"name": "Class name",
 			"scope": "entity.name.class, entity.name.module, entity.name.type, storage.identifier,  support.class",
 			"settings": {
@@ -268,7 +276,7 @@
 			"name": "Function name",
 			"scope": "entity.name.function",
 			"settings": {
-				"foreground": "#D090CF"
+				"foreground": "#cc8ed2"
 			}
 		},
 		{
@@ -282,14 +290,14 @@
 			"name": "Function call",
 			"scope": "entity.name.function-call",
 			"settings": {
-				"foreground": "#D090CF"
+				"foreground": "#cc8ed2"
 			}
 		},
 		{
 			"name": "Builtin Functions",
 			"scope": "function.support.builtin, function.support.core",
 			"settings": {
-				"foreground": "#D090CF"
+				"foreground": "#cc8ed2"
 			}
 		},
 		{
@@ -303,7 +311,7 @@
 			"name": "Tag Class and ID",
 			"scope": "entity.name.tag.class",
 			"settings": {
-				"foreground": "#D090CF"
+				"foreground": "#cc8ed2"
 			}
 		},
 		{
@@ -317,14 +325,14 @@
 			"name": "Tag attribute",
 			"scope": "entity.other.attribute-name",
 			"settings": {
-				"foreground": "#D090CF"
+				"foreground": "#cc8ed2"
 			}
 		},
 		{
 			"name": "Library function",
 			"scope": "support.function",
 			"settings": {
-				"foreground": "#D090CF"
+				"foreground": "#cc8ed2"
 			}
 		},
 		{
@@ -352,7 +360,7 @@
 			"name": "JSON String",
 			"scope": "source.json string",
 			"settings": {
-				"foreground": "#D6C094"
+				"foreground": "#d6c294"
 			}
 		},
 		{
@@ -366,14 +374,14 @@
 			"name": "StyleSheet Property value",
 			"scope": "support.constant.css, support.constant.scss, support.constant.less, support.constant.sass",
 			"settings": {
-				"foreground": "#D090CF"
+				"foreground": "#cc8ed2"
 			}
 		},
 		{
 			"name": "StyleSheet Variable",
 			"scope": "variable.css, variable.scss, variable.less, variable.sass",
 			"settings": {
-				"foreground": "#D090CF"
+				"foreground": "#cc8ed2"
 			}
 		},
 		{
@@ -408,14 +416,14 @@
 			"name": "StyleSheet Support Constant",
 			"scope": "source.css support.constant",
 			"settings": {
-				"foreground": "#D090CF"
+				"foreground": "#cc8ed2"
 			}
 		},
 		{
 			"name": "StyleSheet Function",
 			"scope": "function.css, function.scss, function.less, function.sass",
 			"settings": {
-				"foreground": "#D090CF"
+				"foreground": "#cc8ed2"
 			}
 		},
 		{
@@ -492,7 +500,7 @@
 			"name": "Stylesheet Support Functions",
 			"scope": "source.css support.function",
 			"settings": {
-				"foreground": "#D090CF"
+				"foreground": "#cc8ed2"
 			}
 		},
 		{
@@ -611,7 +619,7 @@
 			"name": "XML Attribute",
 			"scope": "entity.other.attribute-name.xml, entity.other.attribute-name.localname.xml,entity.other.attribute-name.html",
 			"settings": {
-				"foreground": "#D090CF"
+				"foreground": "#cc8ed2"
 			}
 		},
 		{
