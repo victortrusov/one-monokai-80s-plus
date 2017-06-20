@@ -1,5 +1,14 @@
 # Changelog
 
+#### v1.3.12
+
+  - Tweaked green to fit in with new colors
+  - Lowered contrast on sidebar foreground (easier to look at)
+
+#### v1.3.11
+
+  - Tweaked the new pink
+
 #### v1.3.10
 
   - Added C# specific class coloring
