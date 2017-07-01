@@ -260,13 +260,6 @@
 			}
 		},
 		{
-			"name": "Clear Text",
-			"scope": "variable.language.this",
-			"settings": {
-				"foreground": "#BEC2CA"
-			}
-		},
-		{
 			"name": "Inherited class",
 			"scope": "entity.other.inherited-class",
 			"settings": {
