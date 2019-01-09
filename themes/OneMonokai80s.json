@@ -23,8 +23,8 @@
 		"editorBracketMatch.border": "#505762",
 		"editor.background": "#282c34",
 		"editor.foreground": "#bec2ca",
-		"editor.selectionBackground": "#333842",
-		"editor.selectionHighlightBackground": "#3e4551",
+		"editor.selectionBackground": "#2f5093",
+		"editor.selectionHighlightBackground": "#233d70",
 		"editor.inactiveSelectionBackground": "#333842",
 		"editor.lineHighlightBackground": "#2c323c",
 		"editor.lineHighlightBorder": "#2c323c",
@@ -94,7 +94,8 @@
 		"peekViewResult.selectionForeground": "#d5d7dd",
 		"peekViewTitle.background": "#21252B",
 		"peekViewTitleDescription.foreground": "#818998",
-		"peekViewTitleLabel.foreground": "#fff"
+		"peekViewTitleLabel.foreground": "#fff",
+		"editorIndentGuide.activeBackground": "#aaa"
 	},
 	"tokenColors": [{
 			"settings": {
@@ -103,8 +104,22 @@
 			}
 		},
 		{
+			"name": "Var",
+			"scope": "entity.name.variable.local.cs, meta.definition.variable",
+			"settings": {
+				"foreground": "#E3E5E8"
+			}
+		},
+		{
 			"name": "Comment",
-			"scope": "comment, string.comment",
+			"scope": [
+				"comment",
+				"string.comment",
+				"comment.block",
+				"comment.block.documentation",
+				"comment.line",
+				"punctuation.definition.comment"
+			],
 			"settings": {
 				"foreground": "#6F7887",
 				"fontStyle": "italic"
@@ -112,7 +127,11 @@
 		},
 		{
 			"name": "String",
-			"scope": "string",
+			"scope": [
+				"string",		  
+				"punctuation.definition.string.begin",
+				"punctuation.definition.string.end"
+			],
 			"settings": {
 				"foreground": "#d6c294"
 			}
@@ -147,14 +166,14 @@
 		},
 		{
 			"name": "User-defined constant",
-			"scope": "constant.character, constant.other, variable.other.constant",
+			"scope": "constant.character, constant.other, variable.other.constant, constant",
 			"settings": {
 				"foreground": "#9CC284"
 			}
 		},
 		{
 			"name": "Language Variable",
-			"scope": "variable.language",
+			"scope": "variable.language, variable, meta.class123, text",
 			"settings": {
 				"foreground": "#61AFEF"
 			}
@@ -268,14 +287,18 @@
 		},
 		{
 			"name": "Function name",
-			"scope": "entity.name.function",
+			"scope": [
+				"storage.modifier",
+				"entity.name.function",
+				"support.function"
+			],
 			"settings": {
 				"foreground": "#ca90d0"
 			}
 		},
 		{
 			"name": "Function argument",
-			"scope": "variable.parameter",
+			"scope": "variable.parameter, entity.name.variable.parameter",
 			"settings": {
 				"foreground": "#9ac181"
 			}
@@ -310,7 +333,11 @@
 		},
 		{
 			"name": "Doctype",
-			"scope": "meta.tag.sgml.doctype.html",
+			"scope": [
+				"meta.tag.sgml.doctype.html",
+				"meta.tag",
+				"markup"
+			],
 			"settings": {
 				"foreground": "#61AFEF"
 			}
@@ -652,6 +679,22 @@
 			"scope": "token.debug-token",
 			"settings": {
 				"foreground": "#b267e6"
+			}
+		},
+		{
+			"scope": [
+				"meta.block123",
+				"meta.cast",
+				"meta.function",
+				"meta.function-call",
+				"meta.preprocessor",
+				"meta.return-type",
+				"meta.selector",
+				"meta.type",
+				"meta.type.annotation"
+			],
+			"settings": {
+				"foreground": "#61AFEF"
 			}
 		}
 	]
