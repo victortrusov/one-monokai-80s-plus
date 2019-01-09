@@ -180,7 +180,7 @@
 		},
 		{
 			"name": "Variable",
-			"scope": "variable.readwrite, variable.readwrite.other.block",
+			"scope": "variable.readwrite, variable.readwrite.other.block, punctuation, meta.brace, meta.object-literal.key",
 			"settings": {
 				"foreground": "#BEC2CA"
 			}
