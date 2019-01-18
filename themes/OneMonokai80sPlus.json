@@ -155,7 +155,7 @@
 		},
 		{
 			"name": "Language Variable",
-			"scope": "variable.language, variable, meta.class123, text",
+			"scope": "variable.language, variable, meta.class123, text123",
 			"settings": {
 				"foreground": "#61AFEF"
 			}
@@ -678,6 +678,42 @@
 			],
 			"settings": {
 				"foreground": "#61AFEF"
+			}
+		},
+		{
+			"scope": "rainbow2",
+			"settings": {
+				"foreground": "#ca90d0"
+			}
+		},
+		{
+			"scope": "rainbow3",
+			"settings": {
+				"foreground": "#61AFEF"
+			}
+		},
+		{
+			"scope": "rainbow4",
+			"settings": {
+				"foreground": "#9CC284"
+			}
+		},
+		{
+			"scope": "rainbow5",
+			"settings": {
+				"foreground": "#E5C07B"
+			}
+		},
+		{
+			"scope": "rainbow6",
+			"settings": {
+				"foreground": "#b267e6"
+			}
+		},
+		{
+			"scope": "rainbow7",
+			"settings": {
+				"foreground": "#cd9731"
 			}
 		}
 	]
