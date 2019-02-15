@@ -1,5 +1,12 @@
 # Changelog
 
+#### v1.4.0 - Fork
+
+  - Change interface back to One Monokai
+  - C# support
+  - Rainbow rules
+  - Minor improvements 
+
 #### v1.3.12
 
   - Tweaked green to fit in with new colors
