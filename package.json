@@ -1,7 +1,7 @@
 {
     "name": "one-monokai-80s-plus",
     "displayName": "One Monokai 80s Plus Theme",
-    "description": "Fork from One Monokai 80s Theme (now with C#)",
+    "description": "Fork from One Monokai 80s, now supports C# and other languages",
     "version": "1.4.2",
     "publisher": "VictorTrusov",
     "engines": {
@@ -31,8 +31,13 @@
         "pastels",
         "monokai",
         "c#",
-        "c sharp"
+        "c sharp",
+        "csharp",
+        "net",
+        "net core",
+        "80",
+        "vaporwave"
     ],
-    "author": "Marcelo Delgado",
+    "author": "Marcelo Delgado / Victor Trusov",
     "license": "MIT"
 }

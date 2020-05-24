@@ -3,7 +3,7 @@
 #### v1.4.2
 
   - Dim colors in documentation comments
-  - Variable definition backlight
+  - Variable definition backlight in js
 
 #### v1.4.0 - Fork
 

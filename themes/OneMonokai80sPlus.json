@@ -85,7 +85,7 @@
 		{
 			"name": "Var definition",
 			"scope": [
-				"entity.name.variable.local.cs",
+				"entity.name.variable.local",
 				"meta.definition.variable variable.other.readwrite"
 			],
 			"settings": {
