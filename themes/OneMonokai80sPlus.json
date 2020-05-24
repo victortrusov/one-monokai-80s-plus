@@ -127,7 +127,10 @@
 		},
 		{
 			"name": "Embeded String Begin and End",
-			"scope": "string.embedded.begin, string.embedded.end",
+			"scope": [
+				"string.embedded.begin",
+				"string.embedded.end"
+			],
 			"settings": {
 				"foreground": "#D19A66"
 			}
@@ -148,21 +151,37 @@
 		},
 		{
 			"name": "User-defined constant",
-			"scope": "constant.character, constant.other, variable.other.constant, constant",
+			"scope": [
+				"constant.character",
+				"constant.other",
+				"variable.other.constant",
+				"constant"
+			],
 			"settings": {
 				"foreground": "#9CC284"
 			}
 		},
 		{
 			"name": "Language Variable",
-			"scope": "variable.language, variable, meta.class123, text123",
+			"scope": [
+				"variable.language",
+				"variable",
+				"meta.class123",
+				"text123"
+			],
 			"settings": {
 				"foreground": "#61AFEF"
 			}
 		},
 		{
 			"name": "Variable",
-			"scope": "variable.readwrite, variable.readwrite.other.block, punctuation, meta.brace, meta.object-literal.key",
+			"scope": [
+				"variable.readwrite",
+				"variable.readwrite.other.block",
+				"punctuation",
+				"meta.brace",
+				"meta.object-literal.key"
+			],
 			"settings": {
 				"foreground": "#BEC2CA"
 			}
@@ -176,7 +195,10 @@
 		},
 		{
 			"name": "This",
-			"scope": "variable.language.this, variable.language.this.js",
+			"scope": [
+				"variable.language.this",
+				"variable.language.this.js"
+			],
 			"settings": {
 				"foreground": "#E3E5E8"
 			}
@@ -220,7 +242,13 @@
 		},
 		{
 			"name": "Class name",
-			"scope": "entity.name.class, entity.name.module, entity.name.type, storage.identifier,  support.class",
+			"scope": [
+				"entity.name.class",
+				"entity.name.module",
+				"entity.name.type",
+				"storage.identifier",
+				"support.class"
+			],
 			"settings": {
 				"foreground": "#56B6C2"
 			}
@@ -241,7 +269,11 @@
 		},
 		{
 			"name": "Property",
-			"scope": "support.variable.property, variable.other.property, variable.other.object.property",
+			"scope": [
+				"support.variable.property",
+				"variable.other.property",
+				"variable.other.object.property"
+			],
 			"settings": {
 				"foreground": "#93A1D2"
 			}
@@ -281,28 +313,41 @@
 		},
 		{
 			"name": "Function argument",
-			"scope": "variable.parameter, entity.name.variable.parameter",
+			"scope": [
+				"variable.parameter",
+				"entity.name.variable.parameter"
+			],
 			"settings": {
 				"foreground": "#9ac181"
 			}
 		},
 		{
 			"name": "Function call",
-			"scope": "entity.name.function-call, meta.function-call123",
+			"scope": [
+				"entity.name.function-call",
+				"meta.function-call123"
+			],
 			"settings": {
 				"foreground": "#ca90d0"
 			}
 		},
 		{
 			"name": "Builtin Functions",
-			"scope": "function.support.builtin, function.support.core",
+			"scope": [
+				"function.support.builtin",
+				"function.support.core"
+			],
 			"settings": {
 				"foreground": "#ca90d0"
 			}
 		},
 		{
 			"name": "Tag name",
-			"scope": "entity.name.tag, entity.name.tag.class.js, entity.name.tag.class.jsx",
+			"scope": [
+				"entity.name.tag",
+				"entity.name.tag.class.js",
+				"entity.name.tag.class.jsx"
+			],
 			"settings": {
 				"foreground": "#61AFEF"
 			}
@@ -348,14 +393,20 @@
 		},
 		{
 			"name": "Library class/type",
-			"scope": "support.type, support.variable",
+			"scope": [
+				"support.type",
+				"support.variable"
+			],
 			"settings": {
 				"foreground": "#56B6C2"
 			}
 		},
 		{
 			"name": "Json Property",
-			"scope": "support.dictionary.json, source.json support.type",
+			"scope": [
+				"support.dictionary.json",
+				"source.json support.type"
+			],
 			"settings": {
 				"foreground": "#BEC2CA"
 			}
@@ -369,42 +420,72 @@
 		},
 		{
 			"name": "StyleSheet Property name",
-			"scope": "support.type.property-name.css, support.type.property-name.scss, support.type.property-name.less, support.type.property-name.sass",
+			"scope": [
+				"support.type.property-name.css",
+				"support.type.property-name.scss",
+				"support.type.property-name.less",
+				"support.type.property-name.sass"
+			],
 			"settings": {
 				"foreground": "#BEC2CA"
 			}
 		},
 		{
 			"name": "StyleSheet Property value",
-			"scope": "support.constant.css, support.constant.scss, support.constant.less, support.constant.sass",
+			"scope": [
+				"support.constant.css",
+				"support.constant.scss",
+				"support.constant.less",
+				"support.constant.sass"
+			],
 			"settings": {
 				"foreground": "#ca90d0"
 			}
 		},
 		{
 			"name": "StyleSheet Variable",
-			"scope": "variable.css, variable.scss, variable.less, variable.sass",
+			"scope": [
+				"variable.css",
+				"variable.scss",
+				"variable.less",
+				"variable.sass"
+			],
 			"settings": {
 				"foreground": "#ca90d0"
 			}
 		},
 		{
 			"name": "StyleSheet Variable String",
-			"scope": "variable.css.string, variable.scss.string, variable.less.string, variable.sass.string",
+			"scope": [
+				"variable.css.string",
+				"variable.scss.string",
+				"variable.less.string",
+				"variable.sass.string"
+			],
 			"settings": {
 				"foreground": "#BEC2CA"
 			}
 		},
 		{
 			"name": "StyleSheet Unit",
-			"scope": "unit.css, unit.scss, unit.less, unit.sass",
+			"scope": [
+				"unit.css",
+				"unit.scss",
+				"unit.less",
+				"unit.sass"
+			],
 			"settings": {
 				"foreground": "#D19A66"
 			}
 		},
 		{
 			"name": "StyleSheet Numbers",
-			"scope": "meta.property-value.css constant.numeric.css, meta.property-value.scss constant.numeric.scss, meta.property-value.less constant.numeric.less, meta.property-value.sass constant.numeric.sass",
+			"scope": [
+				"meta.property-value.css constant.numeric.css",
+				"meta.property-value.scss constant.numeric.scss",
+				"meta.property-value.less constant.numeric.less",
+				"meta.property-value.sass constant.numeric.sass"
+			],
 			"settings": {
 				"foreground": "#D19A66"
 			}
@@ -425,63 +506,116 @@
 		},
 		{
 			"name": "StyleSheet Function",
-			"scope": "function.css, function.scss, function.less, function.sass",
+			"scope": [
+				"function.css",
+				"function.scss",
+				"function.less",
+				"function.sass"
+			],
 			"settings": {
 				"foreground": "#ca90d0"
 			}
 		},
 		{
 			"name": "Stylesheet Tags",
-			"scope": "entity.name.tag.css, entity.name.tag.scss, entity.name.tag.less, entity.name.tag.sass",
+			"scope": [
+				"entity.name.tag.css",
+				"entity.name.tag.scss",
+				"entity.name.tag.less",
+				"entity.name.tag.sass"
+			],
 			"settings": {
 				"foreground": "#56B6C2"
 			}
 		},
 		{
 			"name": "Stylesheet Attributes",
-			"scope": "entity.other.attribute-name.css, entity.other.attribute-name.scss, entity.other.attribute-name.less, entity.other.attribute-name.sasscss",
+			"scope": [
+				"entity.other.attribute-name.css",
+				"entity.other.attribute-name.scss",
+				"entity.other.attribute-name.less",
+				"entity.other.attribute-name.sasscss"
+			],
 			"settings": {
 				"foreground": "#61AFEF"
 			}
 		},
 		{
 			"name": "Stylesheet Class",
-			"scope": "entity.other.attribute-name.class.css, entity.other.attribute-name.class.scss, entity.other.attribute-name.class.less, entity.other.attribute-name.class.sass",
+			"scope": [
+				"entity.other.attribute-name.class.css",
+				"entity.other.attribute-name.class.scss",
+				"entity.other.attribute-name.class.less",
+				"entity.other.attribute-name.class.sass"
+			],
 			"settings": {
 				"foreground": "#61AFEF"
 			}
 		},
 		{
 			"name": "Stylesheet ID",
-			"scope": "entity.other.attribute-name.id.css, entity.other.attribute-name.id.scss, entity.other.attribute-name.id.less, entity.other.attribute-name.id.sass",
+			"scope": [
+				"entity.other.attribute-name.id.css",
+				"entity.other.attribute-name.id.scss",
+				"entity.other.attribute-name.id.less",
+				"entity.other.attribute-name.id.sass"
+			],
 			"settings": {
 				"foreground": "#9CC284"
 			}
 		},
 		{
 			"name": "Stylesheet Psuedo-Class",
-			"scope": "entity.other.attribute-name.pseudo-class.css, entity.other.attribute-name.pseudo-class.scss, entity.other.attribute-name.pseudo-class.less, entity.other.attribute-name.pseudo-class.sass",
+			"scope": [
+				"entity.other.attribute-name.pseudo-class.css",
+				"entity.other.attribute-name.pseudo-class.scss",
+				"entity.other.attribute-name.pseudo-class.less",
+				"entity.other.attribute-name.pseudo-class.sass"
+			],
 			"settings": {
 				"foreground": "#93A1D2"
 			}
 		},
 		{
 			"name": "Stylesheet Pseudo-Element",
-			"scope": "entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-element.scss, entity.other.attribute-name.pseudo-element.less, entity.other.attribute-name.pseudo-element.sass",
+			"scope": [
+				"entity.other.attribute-name.pseudo-element.css",
+				"entity.other.attribute-name.pseudo-element.scss",
+				"entity.other.attribute-name.pseudo-element.less",
+				"entity.other.attribute-name.pseudo-element.sass"
+			],
 			"settings": {
 				"foreground": "#93A1D2"
 			}
 		},
 		{
 			"name": "Stylesheet At-Rules",
-			"scope": "meta.at-rule.media.css, meta.at-rule.media.scss, meta.at-rule.media.less, meta.at-rule.media.sass",
+			"scope": [
+				"meta.at-rule.media.css",
+				"meta.at-rule.media.scss",
+				"meta.at-rule.media.less",
+				"meta.at-rule.media.sass"
+			],
 			"settings": {
 				"foreground": "#61AFEF"
 			}
 		},
 		{
 			"name": "Stylesheet Keywords",
-			"scope": "source.css keyword, source.css keyword.operator.logical, source.css keyword.operator.constructor, source.scss keyword, source.scss keyword.operator.logical, source.scss keyword.operator.constructor, source.less keyword, source.less keyword.operator.logical, source.less keyword.operator.constructor, source.sass keyword, source.sass keyword.operator.logical, source.sass keyword.operator.constructor",
+			"scope": [
+				"source.css keyword",
+				"source.css keyword.operator.logical",
+				"source.css keyword.operator.constructor",
+				"source.scss keyword",
+				"source.scss keyword.operator.logical",
+				"source.scss keyword.operator.constructor",
+				"source.less keyword",
+				"source.less keyword.operator.logical",
+				"source.less keyword.operator.constructor",
+				"source.sass keyword",
+				"source.sass keyword.operator.logical",
+				"source.sass keyword.operator.constructor"
+			],
 			"settings": {
 				"foreground": "#61AFEF"
 			}
@@ -553,7 +687,10 @@
 		},
 		{
 			"name": "diff.header",
-			"scope": "meta.diff, meta.diff.header",
+			"scope": [
+				"meta.diff",
+				"meta.diff.header"
+			],
 			"settings": {
 				"foreground": "#4B525B"
 			}
@@ -593,21 +730,30 @@
 		},
 		{
 			"name": "XML Tag",
-			"scope": "entity.name.tag.xml, entity.name.tag.xml.html,entity.name.tag.html",
+			"scope": [
+				"entity.name.tag.xml",
+				"entity.name.tag.xml.html,entity.name.tag.html"
+			],
 			"settings": {
 				"foreground": "#61AFEF"
 			}
 		},
 		{
 			"name": "XML Namespace",
-			"scope": "entity.name.tag.namespace.xml, entity.other.attribute-name.namespace.xml",
+			"scope": [
+				"entity.name.tag.namespace.xml",
+				"entity.other.attribute-name.namespace.xml"
+			],
 			"settings": {
 				"foreground": "#9CC284"
 			}
 		},
 		{
 			"name": "XML Punctuation",
-			"scope": "punctuation.definition.tag.xml,punctuation.definition.tag.html, punctuation.definition.tag",
+			"scope": [
+				"punctuation.definition.tag.xml,punctuation.definition.tag.html",
+				"punctuation.definition.tag"
+			],
 			"settings": {
 				"foreground": "#BEC2CA"
 			}
@@ -621,21 +767,31 @@
 		},
 		{
 			"name": "XML Attribute",
-			"scope": "entity.other.attribute-name.xml, entity.other.attribute-name.localname.xml,entity.other.attribute-name.html",
+			"scope": [
+				"entity.other.attribute-name.xml",
+				"entity.other.attribute-name.localname.xml,entity.other.attribute-name.html"
+			],
 			"settings": {
 				"foreground": "#ca90d0"
 			}
 		},
 		{
 			"name": "XML Keywords",
-			"scope": "keyword.other.entitytype.xml, keyword.other.entity.xml, keyword.other.page-props.xml",
+			"scope": [
+				"keyword.other.entitytype.xml",
+				"keyword.other.entity.xml",
+				"keyword.other.page-props.xml"
+			],
 			"settings": {
 				"foreground": "#E5C07B"
 			}
 		},
 		{
 			"name": "HTML Id",
-			"scope": "meta.attribute-with-value.id.html meta.toc-list.id.html, meta.attribute-with-value.id.html string.quoted.double.html",
+			"scope": [
+				"meta.attribute-with-value.id.html meta.toc-list.id.html",
+				"meta.attribute-with-value.id.html string.quoted.double.html"
+			],
 			"settings": {
 				"foreground": "#9CC284"
 			}
