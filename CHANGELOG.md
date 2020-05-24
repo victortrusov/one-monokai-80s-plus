@@ -1,5 +1,10 @@
 # Changelog
 
+#### v1.4.2
+
+  - Dim colors in documentation comments
+  - Variable definition backlight
+
 #### v1.4.0 - Fork
 
   - Change interface back to One Monokai

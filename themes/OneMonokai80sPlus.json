@@ -54,12 +54,9 @@
 		"titleBar.activeForeground": "#9da5b4",
 		"titleBar.inactiveBackground": "#282C34",
 		"titleBar.inactiveForeground": "#6B717D",
-
-
 		"editor.selectionBackground": "#2f5093",
 		"editor.selectionHighlightBackground": "#233d70",
 		"editor.inactiveSelectionBackground": "#333842",
-		
 		"terminal.ansiBlack": "#65696d",
 		"terminal.ansiBlue": "#61AFEF",
 		"terminal.ansiBrightBlack": "#84888e",
@@ -76,18 +73,21 @@
 		"terminal.ansiRed": "#E06C75",
 		"terminal.ansiWhite": "#bec2ca",
 		"terminal.ansiYellow": "#d6c294",
-		
-		"editorIndentGuide.activeBackground": "#888"		
+		"editorIndentGuide.activeBackground": "#888"
 	},
-	"tokenColors": [{
+	"tokenColors": [
+		{
 			"settings": {
 				"foreground": "#bec2caff",
 				"background": "#282c34ff"
 			}
 		},
 		{
-			"name": "Var",
-			"scope": "entity.name.variable.local.cs, meta.definition.variable",
+			"name": "Var definition",
+			"scope": [
+				"entity.name.variable.local.cs",
+				"meta.definition.variable variable.other.readwrite"
+			],
 			"settings": {
 				"foreground": "#E3E5E8"
 			}
@@ -110,7 +110,7 @@
 		{
 			"name": "String",
 			"scope": [
-				"string",		  
+				"string",
 				"punctuation.definition.string.begin",
 				"punctuation.definition.string.end"
 			],
@@ -247,7 +247,7 @@
 			}
 		},
 		{
-			"name": "Other readwrite",
+			"name": "Other",
 			"scope": "variable.other.readwrite",
 			"settings": {
 				"foreground": "#BEC2CA"
@@ -714,6 +714,55 @@
 			"scope": "rainbow7",
 			"settings": {
 				"foreground": "#cd9731"
+			}
+		},
+		{
+			"name": "Documentation tag name",
+			"scope": [
+				"comment.block.documentation entity.name.tag",
+				"comment.block.documentation storage.type",
+				"comment.block.documentation variable"
+			],
+			"settings": {
+				"foreground": "#6A8CAD"
+			}
+		},
+		{
+			"name": "Documentation punctuation",
+			"scope": [
+				"comment.block.documentation source",
+				"comment.block.documentation punctuation",
+				"comment.block.documentation punctuation.definition.tag"
+			],
+			"settings": {
+				"foreground": "#8C939F"
+			}
+		},
+		{
+			"name": "Documentation entity",
+			"scope": "comment.block.documentation entity.other.attribute-name",
+			"settings": {
+				"foreground": "#9883A8"
+			}
+		},
+		{
+			"name": "Documentation string",
+			"scope": [
+				"comment.block.documentation string",
+				"comment.block.documentation punctuation.definition.string.begin",
+				"comment.block.documentation punctuation.definition.string.end"
+			],
+			"settings": {
+				"foreground": "#95948C"
+			}
+		},
+		{
+			"name": "Documentation entity.name.type",
+			"scope": [
+				"comment.block.documentation entity.name.type"
+			],
+			"settings": {
+				"foreground": "#668F9C"
 			}
 		}
 	]

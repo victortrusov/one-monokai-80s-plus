@@ -10,11 +10,3 @@ One Monokai interface with One Monokai 80s Theme colors. And now with C#!
 ![Interface Screenshot](interface.png)
 
 ![Interface Screenshot](interface2.png)
-
-## Config
-
-It is recommended to turn ruler borders off in your settings when using this theme:
-
-`
-  "editor.overviewRulerBorder": false
-`
