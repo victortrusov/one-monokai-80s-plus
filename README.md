@@ -4,7 +4,7 @@ Fork from One Monokai 80s Theme (https://github.com/marcelo-mason/one-monokai-80
 
 One Monokai interface with One Monokai 80s Theme colors. And now supports C# and other languages!
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/victortrusov.one-monokai-80s-plus.svg)](https://marketplace.visualstudio.com/items?itemName=victortrusov.one-monokai-80s-plus) [![Installs](https://vsmarketplacebadge.apphb.com/installs/victortrusov.one-monokai-80s-plus.svg)](https://marketplace.visualstudio.com/items?itemName=victortrusov.one-monokai-80s-plus) [![Ratings](https://vsmarketplacebadge.apphb.com/rating/victortrusov.one-monokai-80s-plus.svg)](https://marketplace.visualstudio.com/items?itemName=victortrusov.one-monokai-80s-plus)
+[![Version](https://vsmarketplacebadge.apphb.com/version/victortrusov.one-monokai-80s-plus.svg)](https://marketplace.visualstudio.com/items?itemName=victortrusov.one-monokai-80s-plus) [![Installs](https://vsmarketplacebadge.apphb.com/installs/victortrusov.one-monokai-80s-plus.svg)](https://marketplace.visualstudio.com/items?itemName=victortrusov.one-monokai-80s-plus) [![Ratings](https://vsmarketplacebadge.apphb.com/rating/victortrusov.one-monokai-80s-plus.svg)](https://marketplace.visualstudio.com/items?itemName=victortrusov.one-monokai-80s-plus) [![GitHub stars](https://img.shields.io/github/stars/victortrusov/one-monokai-80s-plus.svg?style=social&label=Star&maxAge=2592000)](https://github.com/victortrusov/one-monokai-80s-plus)
 
 
 ![Interface Screenshot](media/interface.png)
