@@ -1,9 +1,13 @@
 # Changelog
 
-#### v1.4.2
+#### v1.4.3
 
   - Dim colors in documentation comments
   - Variable definition backlight in js
+
+#### v1.4.2
+
+  - Minor improvements 
 
 #### v1.4.0 - Fork
 
