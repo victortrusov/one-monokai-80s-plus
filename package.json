@@ -2,7 +2,7 @@
     "name": "one-monokai-80s-plus",
     "displayName": "One Monokai 80s Plus Theme",
     "description": "Fork from One Monokai 80s, now supports C# and other languages",
-    "version": "1.4.3",
+    "version": "1.4.4",
     "publisher": "VictorTrusov",
     "engines": {
         "vscode": "^0.10.1"

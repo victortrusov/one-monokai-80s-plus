@@ -1,6 +1,6 @@
 # Changelog
 
-#### v1.4.3
+#### v1.4.4
 
   - Dim colors in documentation comments
   - Variable definition backlight in js
@@ -12,7 +12,7 @@
 #### v1.4.0 - Fork
 
   - Change interface back to One Monokai
-  - C# support
+  - Update C# support
   - Rainbow rules
   - Minor improvements 
 
